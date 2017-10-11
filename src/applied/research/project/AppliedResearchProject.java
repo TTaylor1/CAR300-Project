@@ -5,17 +5,22 @@
  */
 package applied.research.project;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.Serializable;
+
 /**
  *
  * @author 14034305
  */
-public class AppliedResearchProject {
+public class AppliedResearchProject extends javax.swing.JFrame implements Serializable {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    
+    public void run() {
+        UserInterface UI = new UserInterface();
+        UI.setVisible(true);         
+        
+    
     }
     
 }
